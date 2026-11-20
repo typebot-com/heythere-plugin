@@ -1,0 +1,5 @@
+{
+  "mcpServers": {
+    "heythere": { "type": "http", "url": "https://app.heythere.io/api/mcp" }
+  }
+}

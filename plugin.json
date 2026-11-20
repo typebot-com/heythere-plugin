@@ -1,0 +1,39 @@
+{
+  "$schema": "https://agent-plugins.org/schemas/1.0.0/plugin.schema.json",
+  "name": "heythere",
+  "version": "1.0.0",
+  "description": "Run your business's WhatsApp from your agent: connect Heythere, then build automations and AI agents that your customers find natural and your team can review.",
+  "author": { "name": "Heythere", "email": "support@heythere.io", "url": "https://heythere.io" },
+  "homepage": "https://heythere.io",
+  "license": "MIT",
+  "keywords": ["whatsapp", "automation", "customer-support", "chatbot", "broadcasts"],
+  "extensions": {
+    "com.openai": {
+      "interface": {
+        "displayName": "Heythere",
+        "shortDescription": "Automate your WhatsApp number",
+        "longDescription": "Heythere runs a business's WhatsApp number. Connect your Heythere account, then ask for what your customers should get when they write: replies, questions, AI agents that qualify a lead or answer support, a handover to your team. The agent drafts the automation, prepares simulated contacts, and gives you a test link to try every path from your phone before anyone on your team publishes it. It can also read conversations and contacts, and prepare broadcasts and message templates. Heythere acts only as the member who approved the connection, within the workspaces they can access. Publishing an automation and sending broadcasts need Heythere's Live plan.",
+        "developerName": "Heythere",
+        "category": "Productivity",
+        "capabilities": [
+          "Build WhatsApp automations",
+          "Add AI agents to conversations",
+          "Test automations from your phone",
+          "Read conversations and contacts"
+        ],
+        "websiteURL": "https://heythere.io",
+        "supportURL": "https://heythere.io/docs",
+        "privacyPolicyURL": "https://heythere.io/privacy",
+        "termsOfServiceURL": "https://heythere.io/terms",
+        "defaultPrompt": [
+          "Reply to customers who write to my WhatsApp number.",
+          "Add an AI agent that qualifies leads on WhatsApp.",
+          "Let me test my WhatsApp automation from my phone."
+        ],
+        "brandColor": "#FF5925",
+        "composerIcon": "./assets/logo.svg",
+        "logo": "./assets/logo.svg"
+      }
+    }
+  }
+}

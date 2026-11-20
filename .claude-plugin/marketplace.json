@@ -1,0 +1,5 @@
+{
+  "name": "heythere",
+  "owner": { "name": "Heythere", "email": "support@heythere.io" },
+  "plugins": [{ "name": "heythere", "source": "./" }]
+}

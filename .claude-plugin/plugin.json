@@ -1,0 +1,14 @@
+{
+  "name": "heythere",
+  "displayName": "Heythere",
+  "version": "1.0.0",
+  "description": "Run your business's WhatsApp from your agent: connect Heythere, then build automations and AI agents that your customers find natural and your team can review.",
+  "author": { "name": "Heythere", "url": "https://heythere.io", "email": "support@heythere.io" },
+  "homepage": "https://heythere.io",
+  "license": "MIT",
+  "keywords": ["whatsapp", "automation", "customer-support", "chatbot", "broadcasts"],
+  "icon": "./assets/logo.svg",
+  "documentationUrl": "https://heythere.io/docs",
+  "privacyPolicyUrl": "https://heythere.io/privacy",
+  "termsOfServiceUrl": "https://heythere.io/terms"
+}
